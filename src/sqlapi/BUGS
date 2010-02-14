@@ -1,0 +1,8 @@
+- sqlite interface doesn't work well with dburl
+- pooling with sqlite doesn't work
+- This one is a bad one... when using a table object instance
+  to return a query result (which is actualy a generator), if
+  you call the same query twice, it updates globally, which means
+  that once you've not consumed your former generator, its contents
+  will be updated. The workaround for now is to turn it into a list
+  once you retrieve

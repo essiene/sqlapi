@@ -1,0 +1,15 @@
+setup.py
+src/sqlapi/__init__.py
+src/sqlapi/connection.py
+src/sqlapi/exceptions.py
+src/sqlapi/util.py
+src/sqlapi.egg-info/PKG-INFO
+src/sqlapi.egg-info/SOURCES.txt
+src/sqlapi.egg-info/dependency_links.txt
+src/sqlapi.egg-info/top_level.txt
+src/sqlapi/db/__init__.py
+src/sqlapi/db/mysql.py
+src/sqlapi/db/pool.py
+src/sqlapi/db/sqlite.py
+src/sqlapi/extlib/__init__.py
+src/sqlapi/extlib/antipool.py

@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: sqlapi
+Version: 0.1.0
+Summary: A simple sql abstraction helper layer. Not quite an ORM though
+Home-page: UNKNOWN
+Author: Essien Ita Essien
+Author-email: essiene@gmail.com
+License: BSD
+Description: 
+        sqlapi is a simple sql abstraction help layer. It is not an ORM.
+        
+Keywords: simple orm sql
+Platform: UNKNOWN

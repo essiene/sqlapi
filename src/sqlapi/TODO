@@ -1,0 +1,21 @@
+- Currently we only return iterators, have versions that return actual lists or in the case of single
+  values... just the values themselves.
+
+- name-refactor the decorators @columns and @nocolumns, still don't feel right yet.
+
+- It would be fantastically ecstaticous to have a functions like this:
+
+@dynaquery
+def insertfoo(self):
+    '''insert into foo(a,b,c) values(%s,%s,%s)'''
+
+and be able to call insertfoo like so:
+
+insertfoo(a,b,c)
+
+Basically, generating a function that can anticipate what its parameter list would 
+actually be.
+
+            - Stan is crazy... he suggested this!!!
+
+- query string sanitization and quoting is not done.
