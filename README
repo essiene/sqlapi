@@ -1,0 +1,5 @@
+A very simple abstraction layer for doing
+SQL atop Python's DbApi.
+
+Nothing much really offered apart from some
+simple convenience. It is NOT AN ORM!
